@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page Layout */
+body {
+    background-color: #eaf2f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+/* Section Titles */
+h2 {
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/* Navigation Links */
+ul {
+    list-style: none;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+ul li a:hover {
+    background-color: #2980b9;
+}
+
+/* Forms */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #27ae60;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+/* Messages */
+p {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Student Display */
+pre {
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+/* Footer */
+footer, hr + p {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+}
